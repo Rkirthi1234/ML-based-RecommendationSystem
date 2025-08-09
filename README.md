@@ -31,16 +31,11 @@ TMDB API (Fetching movie posters)
 
 - Install Dependencies
   
-Make sure you have Python 3.9+ installed, then run:
-## pip install streamlit pandas requests
+  Make sure you have Python 3.9+ installed, then run: ## pip install streamlit pandas requests
 
 - Add Required Files
   
-Ensure you have the following files in the same directory:
-
-## movie_dict.pkl
-
-## similarity.pkl
+Ensure you have the following files in the same directory: ## movie_dict.pkl ## similarity.pkl
 
 These contain the movie data and precomputed similarity matrix.
 
