@@ -25,11 +25,9 @@ TMDB API (Fetching movie posters)
 
 # How to Run
 
-- Clone the Repository
-  
-git clone <your-repo-url>
-
-cd movie-recommendation
+- Clone the Repository:  
+  git clone <your-repo-url>
+  cd movie-recommendation
 
 - Install Dependencies
   
