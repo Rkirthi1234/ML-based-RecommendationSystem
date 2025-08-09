@@ -26,21 +26,29 @@ TMDB API (Fetching movie posters)
 # How to Run
 
 - Clone the Repository:
-  ## git clone <your-repo-url>
-  ## cd movie-recommendation
+  
+  git clone <your-repo-url>
+
+  cd movie-recommendation
 
 - Install Dependencies
   
-  Make sure you have Python 3.9+ installed, then run: ## pip install streamlit pandas requests
+  Make sure you have Python 3.9+ installed, then run:
+  
+  pip install streamlit pandas requests
 
 - Add Required Files
-  
-Ensure you have the following files in the same directory: ## movie_dict.pkl ## similarity.pkl
+  Ensure you have the following files in the same directory:
 
-These contain the movie data and precomputed similarity matrix.
+  movie_dict.pkl
+
+  similarity.pkl
+  
+  These contain the movie data and precomputed similarity matrix.
 
 - Run the App
-## streamlit run app.py
+  
+  streamlit run app.py
 
 The app will open in your default browser.
 
@@ -50,11 +58,11 @@ This app uses the TMDB API. The API key is already in app.py, but for security i
 - Generate an API key.
 - Store it in an environment variable:
   
-export TMDB_API_KEY='your_api_key'
+  export TMDB_API_KEY='your_api_key'
 - Replace the API key usage in app.py with:
   
-import os
-api_key = os.getenv("TMDB_API_KEY")
+  import os
+  api_key = os.getenv("TMDB_API_KEY")
 
 
 # Project output:
